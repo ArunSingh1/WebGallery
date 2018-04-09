@@ -1,0 +1,27 @@
+body{
+	background-image: url("daniel-mccullough-146145-unsplash.jpg");
+	background-repeat: no-repeat, repeat;
+	background-attachment: fixed;
+    background-position: center;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	font-size: 400%
+
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 450px;
+	height: 450px;
+	margin: 15px;
+	transition: all 1s;
+}
+img:hover{
+	transform: scale(1.1);
+}
